@@ -1,0 +1,171 @@
+header{
+  background: #fedb0d;
+  padding-bottom:5px;
+}
+h1{
+  float: left;
+  width: 35%;
+  background: #3c3a3a;
+  margin: 0%;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+h1 a{
+  text-decoration: none;
+  font-size: 30px;
+  color: white;
+  padding-left: 20px;
+}
+nav{
+  float: left;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  width: 65%;
+  background: #3c3a3a;
+  padding-left: 65px;
+}
+li{
+  display: inline-block;
+}
+nav a{
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  padding-right: 10px;
+  padding-left: 20px;
+}
+ul{
+  background: #3c3a3a;
+  margin: 0%;
+}
+footer{
+  color: white;
+  background: #3c3a3a;
+  clear: both;
+  padding-left: 10px;
+}
+.tagline{
+  background: #d4e1db;
+  font-size: 150%;
+  text-align: center;
+  margin: 0%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-family: ; 
+
+}
+.button{
+  color: #080808;
+  text-decoration: none;
+  display: block;
+  width: 70%;
+  background: #d4e1db;
+  font-size: 20px;
+  text-align: center;
+  border-radius: 8px;
+  padding: 10px;
+  box-shadow: 0 2px 2px 0;
+  font-style: bold;
+}
+.button1{
+  color: #080808;
+  text-decoration: none;
+  display: block;
+  width: 100%;
+  color: white;
+  background: #ff0121;
+  font-size: 20px;
+  text-align: center;
+  border-radius: 8px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+
+}
+.one{
+  position: absolute;
+  top: 160px;
+  left: 730px;
+  width: 40%;
+  background: white;
+  opacity: .8;
+  padding: 43px;
+  font-size: 110%;
+  line-height: 150%;
+}
+#two{
+  padding-left: 30px;
+  float: left;
+  width: 33%;
+  border-right: .5px solid black;
+  font-size: 20px;
+}
+#three{
+  float: left;
+  width: 33%;
+  border-right: .5px solid black;
+  padding-left: 30px;
+  font-size: 20px;
+}
+#four{
+  float: left;
+  width: 34%;
+  padding-left: 30px;
+  font-size: 20px;
+  padding-bottom: 30px;
+}
+.clearfix:after {
+  display: table;
+  clear: both;
+  content: "";
+}
+
+/* ==========================================================================
+   Global Overrides
+  ========================================================================== */
+* {
+  box-sizing: border-box;
+}
+
+.clearfix:after {
+  display: table;
+  clear: both;
+  content: "";
+}
+
+/* ==========================================================================
+   Author's custom styles
+  ========================================================================== */
+
+/* Global
+   ================================================================ */
+body {
+  /* Set some defaults! font-family, font-size, color, etc. */
+}
+
+/* Text Styles (a, a:hover, a:visited, a:active, p, h1, h2, h3, h4, etc.)
+   ================================================================ */
+a {
+  /* Set some default styles for anchors (color, text decoration) */
+}
+
+/* Layout (columns, floats, etc.)
+   ================================================================ */
+
+
+/* Header
+   ================================================================ */
+
+
+
+/* Footer
+   ================================================================ */
+
+
+
+/* Navigation
+   ================================================================ */
+
+
+
+/* Buttons
+   ================================================================ */
