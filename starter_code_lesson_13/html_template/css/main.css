@@ -1,0 +1,76 @@
+/* ==========================================================================
+   Global Overrides
+  ========================================================================== */
+* {
+  box-sizing: border-box;
+}
+
+.clearfix:after {
+  display: table;
+  clear: both;
+  content: "";
+}
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+.hamburger {
+  margin: 0em ;
+  width: 2.5rem;
+  float: right;
+
+}
+.line {
+  width: 2.5rem;
+  height: .3125rem;
+  background: #E7E6DD;
+  transition: 0.5s;
+  border-radius: 2.5rem;
+  margin-bottom: .52em;
+  opacity: 1;
+}
+.hero{
+	height: 500px;
+	background-color: #808080;
+	clear: both;
+}
+
+nav ul li{
+	float: left;
+	margin: 1em;
+
+}
+footer div{
+	float: left;
+	width: 33.333333%;
+	text-align: center;
+	background-color: yellow;
+	height: 100px;
+	padding: 2.5em;
+}
+article{
+	float: left;
+	width: 25%;
+	text-align: center;
+	background-color: #2d5da1;
+}
+
+/*override for tablet*/
+@media (max-width: 1024px){
+	nav{
+	display: none;
+}
+article{
+	width: 100%;
+}
+footer div{
+	width: 100%;
+}
+
+
+
+
+
+
+
+
